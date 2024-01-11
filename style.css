@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Raleway, sans-serif;
+}
+
+img{
+    height: 30px;
+}
+
+.widget-granos p{
+    display: inline;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.widget-granos div.active{
+    background-color: white;
+}
+
+.widget-granos div:hover{
+    cursor: pointer;
+}
+
+.widget-granos .row-soja{
+    border-top: 3px solid rgb(0, 147, 69);
+    background-color: #EBEBEB;
+}
+
+.widget-granos .row-trigo{
+    border-top: 3px solid rgb(195, 153, 107);
+    background-color: #EBEBEB;
+}
+
+.widget-granos .row-maiz{
+    border-top: 3px solid rgb(249, 165, 45);
+    background-color: #EBEBEB;
+}
+
+.widget-granos .row-sorgo{
+    border-top: 3px solid rgb(210, 92, 58);
+    background-color: #EBEBEB;
+}
+
+.widget-granos .row-girasol{
+    border-top: 3px solid rgb(255, 214, 25);
+    background-color: #EBEBEB;
+}
+
+.info-granos .col-grey{
+    background-color: #EBEBEB;
+    font-weight: bold;  
+}
+
+.info-granos p{
+    margin: 0;
+    padding: 10px 0;
+}
+
+.info-granos img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px 0 0;
+}
+
+.pizarra-granos .col{
+    background-color: #EBEBEB;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pizarra-granos .row-soja{
+    border-top: 5px solid rgb(0, 147, 69);
+    background-color: #EBEBEB;
+}
+
+.pizarra-granos .row-trigo{
+    border-top: 5px solid rgb(195, 153, 107);
+    background-color: #EBEBEB;
+}
+
+.pizarra-granos .row-maiz{
+    border-top: 5px solid rgb(249, 165, 45);
+    background-color: #EBEBEB;
+}
+
+.pizarra-granos .row-sorgo{
+    border-top: 5px solid rgb(210, 92, 58);
+    background-color: #EBEBEB;
+}
+
+.pizarra-granos .row-girasol{
+    border-top: 5px solid rgb(255, 214, 25);
+    background-color: #EBEBEB;
+}
+
+.pizarra-granos.header{
+    font-weight: 900;
+}
+
+.pizarra-granos.precios{
+    font-size: 200%;
+    font-weight: 400;
+}
+
+.pizarra-granos.variaciones{
+    font-size: 11.5px;
+    color: #777777;
+    font-weight: 400;
+}
+
+.pizarra-granos i.icono-variacion{
+    color: rgb(119, 119, 119);
+    font-size: 20px;
+}
